@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Nivo Slider Jquery Plugin</title>
+ <link rel="stylesheet" href="css/themes/default/default.css">
+ <link rel="stylesheet" href="css/nivo-slider.css">
+</head>
+<body>
+ 
+ <div id="wrapper">
+  <div class="slider-wrapper theme-default">
+  <div id="slider" class="nivoSlider"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This Is First Image" /></a> <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" title="This Is Second Image" data-transition="slideInLeft" /> <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="This Is Third Image" /> </div>
+  </div>
+  </div>
+
+ <script src="js/jquery-3.6.0.min.js"></script>
+ <script src="js/jquery.nivo.slider.js"></script>
+ <script>
+  $('#slider').nivoSlider({
+   animSpeed: 500,
+   pauseTime: 2000,
+   effect: 'random',
+  });
+ </script>
+</body>
+</html>
